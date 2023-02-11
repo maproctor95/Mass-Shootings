@@ -173,6 +173,7 @@ var options = {
     chart: {
     type: "area",
     height: 350,
+    width: 480,
     dropShadow: {
       enabled: true,
       color: "#000"
