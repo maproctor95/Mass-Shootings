@@ -39,9 +39,10 @@ Project_3_Group_4
     * We started by setting up the HTML file and making sure it worked with just the heading and dropdown menu to begin our dashboard. The we began the process of creating our visulizations. Apex charts was a new javascript library for us to use, so it took many hours of errors and research to figure out how to make anything show up on the website.
 * Visualizations
     * Our first visulization took a redo of data cleaning to group the data by year and find the sum of the shootings. Once the data was recleaned and ready we began noticing problems with the d3 library we were using to inport the data. To get around that the grouped data was hard coded into the javascript file to create the visual. This visual due to the lack of ways to import of csv files into the javascript code is not able to be interacted with other then a popup for the points of the line.
-    * The second visualization groups the data by the type of gun that was used in all of the shootings against the total number of victims. Since we had trouble with the d3 library in the first visualization we decided to hardcode this data as well. Since the data was much shorter we were able to make simple edits in the code. We found in the data, after uploading the csv file, that multiple columns for "Multiple Guns" and "Handguns" appeared because of one letter being capitalized. So we were able to just combine the total number of victims for each set and make one column of each.
     
+    * The second visualization groups the data by the type of gun that was used in all of the shootings against the total number of victims. Since we had trouble with the d3 library in the first visualization we decided to hardcode this data as well. Since the data was much shorter we were able to make simple edits in the code. We found in the data, after uploading the csv file, that multiple columns for "Multiple Guns" and "Handguns" appeared because of one letter being capitalized. So we were able to just combine the total number of victims for each set and make one column of each.
+        
 ### Pictures
 ![1](Images/SQL_Database.png)
 ![2](Images/09xuvefo.png)
-![3](Images/Bar.png)
+
