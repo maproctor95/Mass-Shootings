@@ -32,12 +32,15 @@ Project_3_Group_4
 ## Analysis
 
 * Data and Delivery
-
+    * We used Kaggle data from : https://www.kaggle.com/code/residentmario/exploring-mass-shooting-events/data
+    * During the cleaning process we cleaned the data to only show the columns we were going to use for the project and got rid of unneccessary columns. Throughout the cleaning process we ran into issues with data formatting from the original file. Some years were populating wrong and the file was wrapping onto different lines for about 20 of our data points. We solved this by going into the csv file and correcting the formatting issues before uploading in to our database. 
+    * Once our data was cleaned we used PgAdmin to create a database with all the data we had cleaned and we used this database to create our python powered flask app to start the visulization process.
 * Back End
-
+    * We started by setting up the HTML file and making sure it worked with just the heading and dropdown menu to begin our dashboard. The we began the process of creating our visulizations. Apex charts was a new javascript library for us to use, so it took many hours of errors and research to figure out how to make anything show up on the website.
 * Visualizations
-
-* Group Presentation
-
+    * Our first visulization took a redo of data cleaning to group the data by year and find the sum of the shootings. Once the data was recleaned and ready we began noticing problems with the d3 library we were using to inport the data. To get around that the grouped data was hard coded into the javascript file to create the visual. This visual due to the lack of ways to import of csv files into the javascript code is not able to be interacted with other then a popup for the points of the line.
+    
 ### Pictures
+![1](Images/SQL_Database.png)
+![2](Images/09xuvefo.png)
 
