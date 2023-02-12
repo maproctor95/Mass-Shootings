@@ -72,23 +72,23 @@ var options = {
         }
     },
     dataLabels: {
-        "enabled": false,
-        "style": {
-            "fontWeight": 700
+        enabled: false,
+        style: {
+            fontWeight: 700
         }
     },
     grid: {
-        "padding": {
-            "right": 25,
-            "left": 15
+        padding: {
+            right: 25,
+            left: 15
         }
     },
     legend: {
-        "fontSize": 14,
-        "offsetY": 0,
-        "markers": {
-            "shape": "square",
-            "size": 8
+        fontSize: 14,
+        offsetY: 0,
+        markers: {
+            shape: "square",
+            size: 8
         },
         itemMargin: {
             vertical: 0
