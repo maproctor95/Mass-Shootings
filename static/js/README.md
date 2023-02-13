@@ -41,8 +41,11 @@ Project_3_Group_4
     * Our first visulization took a redo of data cleaning to group the data by year and find the sum of the shootings. Once the data was recleaned and ready we began noticing problems with the d3 library we were using to inport the data. To get around that the grouped data was hard coded into the javascript file to create the visual. This visual due to the lack of ways to import of csv files into the javascript code is not able to be interacted with other then a popup for the points of the line.
     
     * The second visualization groups the data by the type of gun that was used in all of the shootings against the total number of victims. Since we had trouble with the d3 library in the first visualization we decided to hardcode this data as well. Since the data was much shorter we were able to make simple edits in the code. We found in the data, after uploading the csv file, that multiple columns for "Multiple Guns" and "Handguns" appeared because of one letter being capitalized. So we were able to just combine the total number of victims for each set and make one column of each.
+
+    * The third visualization was supposed to be a bubble chart however we decided to do a map plot of US and match that with the coordinates of the mass shooting events. For this plot, we used the geoJSON function to parse the data and locate the geographic information. This ran as a loop. We attached a pop up so that when a marker on the map is clicked, it displays the total number of victims information. If there were more time, I would have liked to have done a bubble chart where the radius of the bubble is pegged with another variable.
         
 ### Pictures
 ![1](Images/SQL_Database.png)
 ![2](Images/09xuvefo.png)
+![3](Images/Screen_shot_map_plot.png)
 
