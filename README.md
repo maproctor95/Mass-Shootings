@@ -43,10 +43,12 @@ Project_3_Group_4 : https://maproctor95.github.io/Mass-Shootings/
     * The second visualization groups the data by the type of gun that was used in all of the shootings against the total number of victims. Since we had trouble with the d3 library in the first visualization we decided to hardcode this data as well. Since the data was much shorter we were able to make simple edits in the code. We found in the data, after uploading the csv file, that multiple columns for "Multiple Guns" and "Handguns" appeared because of one letter being capitalized. So we were able to just combine the total number of victims for each set and make one column of each.
 
     * The third visualization was supposed to be a bubble chart however we decided to do a map plot of US and match that with the coordinates of the mass shooting events. For this plot, we used the geoJSON function to parse the data and locate the geographic information. This ran as a loop. We attached a pop up so that when a marker on the map is clicked, it displays the total number of victims information. If there were more time, I would have liked to have done a bubble chart where the radius of the bubble is pegged with another variable.
+     * The fourth visualization groups the data by the history of mental illness against the total number of cases/shooters. Since we had trouble with the d3 library, we decided to use the appexcharts. First, we manipulated or groupby the data in pandas and after that, we used it for the visualization. we were able to count the cases and shooters based on their mental illness, and finally, visualize the mental illnesses status of all shooters.
         
 ### Pictures
 ![1](Images/SQL_Database.png)
 ![2](Images/09xuvefo.png)
 ![3](Images/Bar.png)
 ![4](Images/Screen_shot_map_plot.png)
+
 
