@@ -38,14 +38,14 @@ var options = {
         },
         foreColor: "#333",
         fontFamily: "Roboto",
-        height: 462,
+        height: 350,
         id: "XtHuc",
         stacked: true,
         toolbar: {
             show: false
         },
         type: "bar",
-        width: 606
+        width: 480
     },
     plotOptions: {
         bar: {
